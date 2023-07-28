@@ -17,3 +17,11 @@ for (let counter = 5; counter < 11; counter++) {
 for (let number = 3; number >= 0; number--) {
     console.log(number)
 }
+
+// Looping through Arrays
+
+const vacation = ['Bali', 'Paris', 'Tulum'];
+
+for (let i = 0; i < vacation.length; i++) {
+    console.log(`I would love to visit ${vacation[i]}`);
+}
