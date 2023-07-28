@@ -25,3 +25,19 @@ const vacation = ['Bali', 'Paris', 'Tulum'];
 for (let i = 0; i < vacation.length; i++) {
     console.log(`I would love to visit ${vacation[i]}`);
 }
+
+// Nested Loops
+
+const bobsFollowers = ['Alex', 'Barry', 'Chris', 'Dave'];
+const tinasFollowers = ['Alex', 'Barry', 'Curtis'];
+const mutualFollowers = [];
+
+for (let i = 0; i < bobsFollowers.length; i++) {
+    for (let j = 0; j < tinasFollowers.length; j++) {
+        if (bobsFollowers[i] === tinasFollowers[j]) {
+            mutualFollowers.push(bobsFollowers[i]);
+        }
+    }
+}
+  
+console.log(mutualFollowers);
